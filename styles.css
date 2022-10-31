@@ -1,0 +1,78 @@
+* {
+   user-select: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+   height: 250px;
+   width: 250px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.circle {
+   width: 90px;
+   height: 90px;
+   border-radius: 50%;
+   background-color: black;
+   position: absolute;
+}
+
+#one {
+   top: calc(0% - 45px);
+   left: calc(50% - 45px);
+}
+
+#two {
+    top: calc(15% - 45px);
+    left: calc(85% - 45px);
+}
+
+#three {
+    top: calc(50% - 45px);
+    left: calc(100% - 45px);
+}
+
+#four {
+    top: calc(85% - 45px);
+    left: calc(85% - 45px);
+}
+
+#five {
+    top: calc(100% - 45px);
+    left: calc(50% - 45px);
+}
+
+#six {
+    top: calc(85% - 45px);
+    left: calc(15% - 45px);
+}
+
+#seven {
+    top: calc(50% - 45px);
+    left: calc(0% - 45px);
+}
+
+#eight {
+    top: calc(15% - 45px);
+    left: calc(15% - 45px);
+}
+
+button {
+    background-color: #222222;
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 100px;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+
+button, .container {
+    cursor: pointer;
+}
